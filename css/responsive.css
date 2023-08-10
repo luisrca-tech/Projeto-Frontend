@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px){
+
+.box-diferenciais {
+     width: 100%;
+    margin-right: 0;
+}
+section.marcas {
+    text-align: center;
+}
+
+.diferenciais {
+    flex-wrap: wrap;
+}
+
+section.marcas > .center {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.marcas img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.lista-beneficios, .img-beneficios {
+    width: 100%;
+    margin-bottom: 30px;
+}
+}
